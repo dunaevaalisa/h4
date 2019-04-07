@@ -1,3 +1,4 @@
+'use strict';
 function calculateMortgage() {
     let percent = window.percent.value;
     let contribution = window.contribution.value;
@@ -23,6 +24,11 @@ function sayHello() {
 }
 
 function getGreeting(name) {
-    // код для задачи №2 писать здесь
-    //return greeting;
+    let greetings = 'Привет, мир! Меня зовут ';
+if (name === String) {
+console.log(greetins + name);
+} else {
+console.log(greetings + 'Аноним');
+}
+    return greetings;
 }
