@@ -36,9 +36,12 @@ function sayHello() {
 function getGreeting(name) {
     let greetings = 'Привет, мир! Меня зовут ';
 if (name === String) {
-console.log(greetins + name);
+  let greeting1 = greetings + name
+console.log(greeting1);
+return greetings;
 } else {
-console.log(greetings + 'Аноним');
+  let greeting1 = greetings + 'Аноним';
+console.log(greeting1);
+return greeting1;
 }
-    return greetings;
 }
