@@ -11,9 +11,19 @@ function calculateMortgage() {
 }
 
 function calculateTotalMortgage(percent, contribution, amount, date) {
+let nameP;
+  let meaningP;
+  if (nameP=0) {
 
-    // код для задачи №1 писать здесь
-    //return totalAmount;
+  } else {
+    console.log(`Параметр ${nameP} содержит неправильное значение ${meaningP}`);
+  }
+  let S = amount;
+  let P = 1 / 12 * percent;
+  let n = date;
+  let totalAmount = S * (P + P / (((1 + P) ^ n) - 1));
+  console.log(totalAmount);
+    return totalAmount;
 }
 
 function sayHello() {
